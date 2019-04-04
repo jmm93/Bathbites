@@ -1,0 +1,55 @@
+
+
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+ background-color: #000000;
+ height: 100%;
+}
+
+.carousel-indicators{
+  background-color: #D3D3D3
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+ .sidenav {
+   height: auto;
+   padding: 15px;
+ }
+ .row.content {height: auto;}
+}
+
+.carousel-img {
+height:auto;
+width:900px;
+padding-top:50px
+}
+
+.carousel-img1 {
+padding-top:50px
+}
+
+.carousel-img2 {
+padding-top:50px
+}
+
+.carousel-item {
+  height:95vh;
+}
+
+
+.carousel-text {
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.feedback {
+  padding:10px;
+}
