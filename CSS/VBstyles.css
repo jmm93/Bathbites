@@ -27,6 +27,20 @@ footer {
 
 }
 
+.cover-heading {
+  font-family: 'Indie Flower', cursive;
+  font-size: 125px;
+  color: #006600;
+  text-shadow: 2px 2px #000000;
+}
+
+.nav-link {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  color: #ff54b0;
+  text-shadow: 2px 2px #000000;
+}
+
 body {
   align-items: center;
   margin: 0;
@@ -59,6 +73,39 @@ body {
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+
+ .container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: white;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position:fixed;
+  top: -50%;
+  left: 50%;
+  text-align:center;
+  font-family: Helvetica;
+  text-shadow: 2px 2px #FF0000;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
